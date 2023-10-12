@@ -1,6 +1,6 @@
 FROM golang:1.18-alpine
 
-ENV APP_PORT=1818
+ENV APP_PORT=8080
 
 RUN mkdir app
 COPY main.go app
